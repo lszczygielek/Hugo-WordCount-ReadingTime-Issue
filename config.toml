@@ -1,0 +1,27 @@
+baseURL = "http://example.org/"
+languageCode = "pl"
+defaultContentLanguage = "pl"
+title = "My New Hugo Site"
+
+theme = "hugo-theme-chunky-poster"
+
+[params]
+showLanguageSwitcher = true
+
+
+[languages]
+  [languages.pl]
+    weight = 1
+    
+    [[languages.pl.menu.main]]
+      url = "/"
+      name = "Główna"
+      weight = 100
+      
+  [languages.en]
+    weight = 2
+
+    [[languages.en.menu.main]]
+      url = "/"
+      name = "Home"
+      weight = 1

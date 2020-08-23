@@ -1,0 +1,9 @@
+# Single
+wordCount:
+    one: "{{ .Count }} słowo"
+    other: "{{ .Count }} słowa"
+
+readingTime:
+    one: "{{ .Count }} min czytania"
+    other: "{{ .Count }} min czytania"
+
